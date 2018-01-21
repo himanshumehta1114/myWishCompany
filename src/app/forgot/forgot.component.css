@@ -28,6 +28,12 @@
     border: none
 }
 
+.check {
+    font-size:10px;
+    font-family: 'Lato', sans-serif;
+    color: #71706E;
+}
+
 .no-glow {
     border-radius: 1px;
     box-shadow: none
@@ -47,23 +53,17 @@
 }
 
 .new {
-    margin-top :50px;
+    margin-top :80px;
     text-align: center;
 }
 
-.new p a{
+.new p{
     color:#149FCD;
 }
 
-.login-btn {
+.register-btn {
     color:#149FCD;
     box-shadow:0px 2px 5px #E0E0E0;
-}
-
-.check {
-    font-size:10px;
-    font-family: 'Lato', sans-serif;
-    color: #71706E;
 }
 
 .help{

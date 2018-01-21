@@ -7,10 +7,12 @@ import { HeaderComponent } from './header/header.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { FooterComponent } from './footer/footer.component';
+import { ForgotComponent } from './forgot/forgot.component';
 
 const routes: Routes = [
  { path: '', component: LoginComponent },
- { path: 'register', component: RegisterComponent }
+ { path: 'register', component: RegisterComponent },
+ { path: 'forgot', component: ForgotComponent }
 ];
 
 @NgModule({
@@ -19,7 +21,8 @@ const routes: Routes = [
     HeaderComponent,
     LoginComponent,
     RegisterComponent,
-    FooterComponent
+    FooterComponent,
+    ForgotComponent
   ],
   imports: [
     BrowserModule,

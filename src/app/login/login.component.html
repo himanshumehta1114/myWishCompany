@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-xs-12">
         <div style="padding : 30px"></div>
-        <h2><strong>SIGN IN</strong></h2>
+        <h2>SIGN IN</h2>
     </div>
 </div>
 <div class="row">
@@ -23,7 +23,7 @@
                     <input type="submit" value="LOGIN" class="btn btn-success form-control submit-btn">
                 </div>
                 <div class="form-group">
-                    <p class="forgot"><a href="#">Forgot Password?</a></p>
+                    <p class="forgot"><a>Forgot Password?</a></p>
                 </div>
             </form>
         </div>
@@ -31,9 +31,13 @@
 </div>
 <div class="row">
     <div class="col-xs-12 new">
-        <p><a href="#">New to MyWishCompany?</a></p>
+        <p>New to MyWishCompany?</p>
         <div class="col-xs-10 col-xs-offset-1">
-            <button class="btn form-control register-btn">REGISTER</button>
+            <button class="btn form-control register-btn" (click)="goRegister()">REGISTER</button>
         </div>
     </div>
+</div>
+
+<div class="help">
+    <p><i class="glyphicon glyphicon-question-sign"></i> Help</p>
 </div>

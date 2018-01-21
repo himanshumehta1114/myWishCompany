@@ -1,0 +1,33 @@
+h2 {
+    text-align: center;
+    color : #00AFD7
+}
+
+.login-block {
+    /*border: 1px solid #E0E0E0;*/
+    box-shadow: 0px 0px 2px #E0E0E0;
+    border-radius: 10px;
+    background : #fff;
+    padding : 40px;
+}
+
+.submit-btn {
+    border-radius: 0px;
+    background : #149FCD;
+    border: none
+}
+
+.no-glow {
+    border-radius: 1px;
+    box-shadow: none
+}
+
+.password-btn {
+    border-left:none;
+    border-radius:1px
+}
+
+.forgot {
+    text-align: center;
+    color:#149FCD;
+}
